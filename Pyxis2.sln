@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kernel", "Kernel\Kernel.csproj", "{DE9F2B2E-5A91-4D05-B31A-15C9AFDAD531}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pyxis2", "Pyxis2\Pyxis2.csproj", "{682BF36C-2403-45C3-B624-9F2EFAFD8962}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DE9F2B2E-5A91-4D05-B31A-15C9AFDAD531} = {DE9F2B2E-5A91-4D05-B31A-15C9AFDAD531}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EXT", "EXT\EXT.csproj", "{E7F58E9B-583F-46CE-BD5E-709470573E43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controls", "Controls\Controls.csproj", "{954DB74A-4464-4C53-880C-0EE27F6AF9FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pyxis2Updater", "Pyxis2Updater\Pyxis2Updater.csproj", "{2906FF5F-DB4A-4330-8DCB-4A651A95CB02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE9F2B2E-5A91-4D05-B31A-15C9AFDAD531}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{DE9F2B2E-5A91-4D05-B31A-15C9AFDAD531}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{DE9F2B2E-5A91-4D05-B31A-15C9AFDAD531}.Debug|Any CPU.Deploy.0 = Release|Any CPU
+		{DE9F2B2E-5A91-4D05-B31A-15C9AFDAD531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE9F2B2E-5A91-4D05-B31A-15C9AFDAD531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE9F2B2E-5A91-4D05-B31A-15C9AFDAD531}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{682BF36C-2403-45C3-B624-9F2EFAFD8962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{682BF36C-2403-45C3-B624-9F2EFAFD8962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{682BF36C-2403-45C3-B624-9F2EFAFD8962}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{682BF36C-2403-45C3-B624-9F2EFAFD8962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{682BF36C-2403-45C3-B624-9F2EFAFD8962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{682BF36C-2403-45C3-B624-9F2EFAFD8962}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E7F58E9B-583F-46CE-BD5E-709470573E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F58E9B-583F-46CE-BD5E-709470573E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F58E9B-583F-46CE-BD5E-709470573E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F58E9B-583F-46CE-BD5E-709470573E43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7F58E9B-583F-46CE-BD5E-709470573E43}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{954DB74A-4464-4C53-880C-0EE27F6AF9FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{954DB74A-4464-4C53-880C-0EE27F6AF9FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{954DB74A-4464-4C53-880C-0EE27F6AF9FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{954DB74A-4464-4C53-880C-0EE27F6AF9FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2906FF5F-DB4A-4330-8DCB-4A651A95CB02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2906FF5F-DB4A-4330-8DCB-4A651A95CB02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2906FF5F-DB4A-4330-8DCB-4A651A95CB02}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2906FF5F-DB4A-4330-8DCB-4A651A95CB02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2906FF5F-DB4A-4330-8DCB-4A651A95CB02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2906FF5F-DB4A-4330-8DCB-4A651A95CB02}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
